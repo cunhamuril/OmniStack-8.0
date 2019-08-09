@@ -39,3 +39,14 @@ PADRÃO MVC (MODEL, VIEW, CONTROLLER)
 meu perfil: "https://api.github.com/users/cunhamuril"
 
  > yarn add axios // intalar axios
+
+
+
+
+ -------------------------------------------------------------------- FRONTEND ----------------------------------------------------------------------
+
+ > yarn create react-app frontend // criar o projeto com nome de frontend
+
+ > yarn add react-router-dom 
+
+ > yarn add axios
