@@ -43,10 +43,57 @@ meu perfil: "https://api.github.com/users/cunhamuril"
 
 
 
- -------------------------------------------------------------------- FRONTEND ----------------------------------------------------------------------
+-------------------------------------------------------------------- FRONTEND ----------------------------------------------------------------------
 
- > yarn create react-app frontend // criar o projeto com nome de frontend
+> yarn create react-app frontend // criar o projeto com nome de frontend
 
- > yarn add react-router-dom 
+> yarn add react-router-dom 
 
- > yarn add axios
+> yarn add axios
+
+
+
+
+--------------------------------------------------------------------- MOBILE -----------------------------------------------------------------------
+
+--------------------- CONFIGURAR AMBIENTE  -----------------------
+
+https://docs.rocketseat.dev/ambiente-react-native/
+
+Genymotion login
+user> cunhamuril
+pass> *fyLa9@-xA@-C3k
+
+$ react-native -h // help -> ver alguns comandos que podem ser executados 
+
+https://docs.rocketseat.dev/ambiente-react-native/android/emulador
+
+// configurado depuração USB para emular no celular
+// Com isso configurado abra o terminal/prompt e execute o comando
+$ adb devices
+// Se estiver escrito device ao lado do ID do dispositivo significa que ele está pronto para rodar a aplicação. 
+// Nesse ponto basta executar o comando abaixo e aguardar a aplicação ser instalada no seu dispositivo.
+$ yarn react-native run-android
+
+--------------------------------------------------------------------------------------------------------------
+
+> npx react-native init tindev // iniciar o projeto com nome de tindev
+> yarn react-native run-android // instalar e iniciar o projeto no emulador ou dispositivo
+> yarn start // inicia o projeto, caso já tenha sido instalado uma vez
+
+// para aparecer o menu de desenvolvimento no telefone, basta chacoalhar o dispositivo.
+// coloca na opção live-reload para atualizar toda vez que for modificado o código.
+
+// instalar estas dependências:
+> yarn add react-navigation react-native-gesture-handler react-native-reanimated
+
+// para android é necessário alguns imports no arquivo MainActivy.java
+https://kmagiera.github.io/react-native-gesture-handler/docs/getting-started.html
+
+// sempre que instalar dependências, é necessário reinstalar o app:
+> yarn react-native run-android
+
+// instalar o axios
+> yarn add axios
+
+> yarn add @react-native-community/async-storage
