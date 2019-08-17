@@ -40,6 +40,17 @@ meu perfil: "https://api.github.com/users/cunhamuril"
 
  > yarn add axios // intalar axios
 
+--------------------- FUNCIONALIDADES AVANÇADAS  -----------------------
+
+> yarn add socket.io
+
+// altera código server.js
+
+
+
+
+
+
 
 
 
@@ -50,6 +61,17 @@ meu perfil: "https://api.github.com/users/cunhamuril"
 > yarn add react-router-dom 
 
 > yarn add axios
+
+--------------------- FUNCIONALIDADES AVANÇADAS  -----------------------
+
+> yarn add socket.io-client
+
+
+
+
+
+
+
 
 
 
@@ -97,3 +119,7 @@ https://kmagiera.github.io/react-native-gesture-handler/docs/getting-started.htm
 > yarn add axios
 
 > yarn add @react-native-community/async-storage
+
+--------------------- FUNCIONALIDADES AVANÇADAS  -----------------------
+
+> yarn add socket.io-client
